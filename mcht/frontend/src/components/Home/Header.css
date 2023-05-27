@@ -2,40 +2,37 @@
  * Global Reset:
  * Reset margins, paddings, and box-sizing for all elements to ensure consistent styling.
  */
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace&family=Josefin+Sans:wght@300;400;600;700&family=Kanit&family=Konkhmer+Sleokchher&family=Oswald:wght@400;500;600&family=Pacifico&family=Poppins:wght@400;500;600&family=Prompt:wght@600&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,700&family=Righteous&family=Six+Caps&family=Vina+Sans&display=swap');
-/**
- * Header:
- * Styles for the header section of the webpage.
- */
-.header{
-    /* Background Image: */
-    background: url(./assets/header-bg\ \(2\).jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* Dimensions: */
-    width: 100%;
-    height: 90vh;
-}
 
-/**
- * Top Right Social Icons
- */
-.social-icons{
-    padding: 4px;
-    cursor: pointer;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace&family=Josefin+Sans:wght@300;400;600;700&family=Kanit&family=Konkhmer+Sleokchher&family=Oswald:wght@400;500;600&family=Pacifico&family=Poppins:wght@400;500;600&family=Prompt:wght@600&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,700&family=Righteous&family=Six+Caps&family=Vina+Sans&display=swap');
+
+.agent img{
+    border: solid 3px #fff;
 }
-.login-icon{
-    font-weight: 500;
-}
-.login-header{
-    cursor: pointer;
+.agent{
     font-family: 'Raleway';
-    font-size: 12px;
-    font-weight: 700;
+}
+.agent h3{
+    text-shadow: 1px 1px 0px #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.agent p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-shadow: 1px 1px 0px #000000;
+}
+@media (min-width: 1024px) {
+    .agent h3{
+        font-size: 35px;
+    }
+    .agent p{
+        font-size: 17px;
+    }
 }
