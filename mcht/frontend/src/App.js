@@ -1,12 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Home from './components/Home';
 
 
 function App() {
   return (
     <div>
-      <div>
-        Hello MCHT
-      </div>
+      <Home/>
     </div>
   );
 }

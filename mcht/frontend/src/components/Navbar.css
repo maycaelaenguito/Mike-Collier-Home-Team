@@ -1,0 +1,13 @@
+/**
+ * Global Reset:
+ * Reset margins, paddings, and box-sizing for all elements to ensure consistent styling.
+ */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hamburger-toggle{
+    cursor: pointer;
+}
