@@ -1,6 +1,12 @@
 {
+  "name": "mcht",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "hamburger-react": "^2.5.0",
+    "react-bootstrap": "^2.7.4",
     "react-icons": "^4.8.0"
   }
 }

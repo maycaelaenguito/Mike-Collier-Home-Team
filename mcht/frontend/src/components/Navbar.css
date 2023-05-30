@@ -21,10 +21,13 @@
     color: #fff;
     font-size: 12px;
     font-family: 'Raleway';
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     border: solid 2px #ffffff00;
 }
 .nav-menu li:hover{
     color: #fff;
+}
+.nav-menu ul{
+    margin-bottom: 0;
 }

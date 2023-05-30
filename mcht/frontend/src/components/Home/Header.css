@@ -22,12 +22,24 @@
     font-weight: 500;
     font-size: 20px;
 }
+.agent .re p{
+    text-shadow: 1px 1px 0px #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 15px;
+}
 .agent p{
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
     text-shadow: 1px 1px 0px #000000;
 }
+.search-btn Button{
+    background-color: #001F48;
+    border-color: #001F48;
+}
+
 @media (min-width: 1024px) {
     .agent h3{
         font-size: 35px;

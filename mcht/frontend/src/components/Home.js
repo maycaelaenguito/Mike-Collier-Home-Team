@@ -16,18 +16,18 @@ import Header from './Home/Header';
 
 const Home = () => {
   return (
-  <section className='home'>
+  <section className='home h-full'>
       <div className='header'>
         {/* HEADER TOP RIGHT SOCIAL ICONS */}
         <div className='header-topleft-icons flex justify-end xl:mr-14'>
-          <ul className='flex lg:w-[12rem] w-[10rem] mt-2 justify-evenly mr-2'>
+          <ul className='flex md:w-[13rem] w-[11rem] mt-2 justify-evenly mr-2'>
             <li className='text-white flex login-header'>
               <span className='flex justify-center items-center login-icon'>
                 <FaSignInAlt size={15} style={{ fontWeight: 'bolder' }} />
               </span>
-              <span className='pl-2 login-text hidden md:flex items-center'>Login</span>
+              <span className='pl-1 pr-2 login-text hidden md:flex items-center'>Login</span>
             </li>
-            <li className='border-solid border-2 border-white w-fit rounded-full text-white flex justify-center items-center social-icons'>
+            <li className=' border-solid border-2 border-white w-fit rounded-full text-white flex justify-center items-center social-icons'>
               <SiGmail size={12} />
             </li>
             <li className='border-solid border-2 border-white w-fit rounded-full text-white flex justify-center items-center social-icons'>
