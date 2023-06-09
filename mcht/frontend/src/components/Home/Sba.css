@@ -1,0 +1,137 @@
+/**
+ * Global Reset:
+ * Reset margins, paddings, and box-sizing for all elements to ensure consistent styling.
+ */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace&family=Josefin+Sans:wght@300;400;600;700&family=Kanit&family=Konkhmer+Sleokchher&family=Oswald:wght@400;500;600&family=Pacifico&family=Poppins:wght@400;500;600&family=Prompt:wght@600&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,700&family=Righteous&family=Six+Caps&family=Vina+Sans&display=swap');
+
+.sba-header h1{
+    font-size: 28px;
+    color:  rgba(0, 0, 0, 0.81);
+}
+.city{
+    cursor: pointer;
+}
+.city h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.area-orlando {
+    background: rgba(0, 0, 0, 0.257) url(../assets/orlando.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-sanford{
+    background: rgba(0, 0, 0, 0.257) url(../assets/sanford.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-ocala{
+    background: rgba(0, 0, 0, 0.257) url(../assets/ocala.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-winterhaven{
+    background: rgba(0, 0, 0, 0.257) url(../assets/winter\ haven.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-leesburg{
+    background: rgba(0, 0, 0, 0.257) url(../assets/leesburg.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-daytona{
+    background: rgba(0, 0, 0, 0.257) url(../assets/daytona.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-lakeland{
+    background: rgba(0, 0, 0, 0.257) url(../assets/lakeland.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-deltona{
+    background: rgba(0, 0, 0, 0.257) url(../assets/deltona.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-clermont{
+    background: rgba(0, 0, 0, 0.257) url(../assets/clermont.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-kissimmee{
+    background: rgba(0, 0, 0, 0.257) url(../assets/Kissimmee.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-tampa{
+    background: rgba(0, 0, 0, 0.257) url(../assets/tampa.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.area-wintergarden{
+    background: rgba(0, 0, 0, 0.257) url(../assets/winter\ garden.png);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.vl button{
+    background: #001F48;
+    font-size: 15px;
+    font-weight: 500;
+}

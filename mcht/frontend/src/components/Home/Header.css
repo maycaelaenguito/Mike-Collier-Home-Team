@@ -9,7 +9,9 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace&family=Josefin+Sans:wght@300;400;600;700&family=Kanit&family=Konkhmer+Sleokchher&family=Oswald:wght@400;500;600&family=Pacifico&family=Poppins:wght@400;500;600&family=Prompt:wght@600&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,700&family=Righteous&family=Six+Caps&family=Vina+Sans&display=swap');
-
+.header-content{
+    font-family: 'Raleway';
+}
 .agent img{
     border: solid 3px #fff;
 }
@@ -35,11 +37,44 @@
     font-size: 15px;
     text-shadow: 1px 1px 0px #000000;
 }
-.search-btn Button{
-    background-color: #001F48;
-    border-color: #001F48;
-}
+.form-search{
+    font-family: 'Raleway';
 
+}
+.search-btn Button{
+    background-color: #002f6d;
+    border-color: #002f6d;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+.search-btn Button:hover{
+    background-color: #001e46;
+    border-color: #001e46;
+}
+.dropdown .dropdown-toggle{
+    border: 0.5px solid rgba(0, 0, 0, 0.072);
+    border-top: #fff;
+    border-right: rgba(0, 0, 0, 0.018);
+    color: rgba(0, 0, 0, 0.69);
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 15px;
+}
+.advanced-form-btn button{
+    background: #002f6d;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.advanced-form-btn button:hover{
+    background-color: #001e46;
+}
+.areas{
+    background-color: #002f6d;
+    color: #fff;
+}
 @media (min-width: 1024px) {
     .agent h3{
         font-size: 35px;

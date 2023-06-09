@@ -1,7 +1,8 @@
 // import React, {useState} from 'react';
-import Agent from '../assets/a5f1d5d4-6289-4382-adf7-181dc6962170.png';
+import Agent from '../assets/Agent.png';
 import './Header.css';
 import HeaderSearch from './HeaderSearch';
+import {IoMdArrowRoundDown} from 'react-icons/io'
 
 
 const Header = () => {
@@ -22,6 +23,15 @@ const Header = () => {
       </div>
       <div className='header-search'>
         <HeaderSearch/>
+      </div>
+      <div className='advanced-form-btn flex justify-center items-center mt-3 mb-3 lg:mb-6'>
+        <button className='flex flex-row justify-center items-center'>
+          More Options 
+          <span className='pl-2 font-bold'><IoMdArrowRoundDown/></span>
+          </button>
+      </div>
+      <div className='areas flex justify-center items-center h-[14vh] lg:h-[9vh] text-center pt-3 mt-1 text-xl font-light'>
+        <p>Serving Central Florida & Areas Surrounding Disney</p>
       </div>
     </div>
   )

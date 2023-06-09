@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace&family=Josefin+Sans:wght@300;400;600;700&family=Kanit&family=Konkhmer+Sleokchher&family=Oswald:wght@400;500;600&family=Pacifico&family=Poppins:wght@400;500;600&family=Prompt:wght@600&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,700&family=Righteous&family=Six+Caps&family=Vina+Sans&display=swap');
@@ -26,7 +25,7 @@
     border: solid 2px #ffffff00;
 }
 .nav-menu li:hover{
-    color: #fff;
+    color: #003e8e;
 }
 .nav-menu ul{
     margin-bottom: 0;

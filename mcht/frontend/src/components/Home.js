@@ -7,6 +7,7 @@ import {TiSocialInstagram} from 'react-icons/ti';
 import {SiGmail} from 'react-icons/si';
 import Navbar from './Navbar';
 import Header from './Home/Header';
+import SearchbyArea from './Home/SearchbyArea';
 
 
     /**
@@ -48,6 +49,10 @@ const Home = () => {
         {/* HEADER CONTENT */}
         <div>
           <Header/>
+        </div>
+        {/* SEARCH BY AREA */}
+        <div>
+          <SearchbyArea/>
         </div>
       </div>
   </section>
