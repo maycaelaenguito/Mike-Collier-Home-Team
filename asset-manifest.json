@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Mike-Collier-Home-Team/static/css/main.bf0105c8.css",
+    "main.js": "/Mike-Collier-Home-Team/static/js/main.32b270a9.js",
+    "static/js/787.6843e602.chunk.js": "/Mike-Collier-Home-Team/static/js/787.6843e602.chunk.js",
+    "static/media/winter garden.png": "/Mike-Collier-Home-Team/static/media/winter garden.ccc8e989fa318f73ae5f.png",
+    "static/media/sanford.png": "/Mike-Collier-Home-Team/static/media/sanford.6bb6bc497eeaacec0627.png",
+    "static/media/orlando.png": "/Mike-Collier-Home-Team/static/media/orlando.e567ab88e5d9c27dd95e.png",
+    "static/media/leesburg.png": "/Mike-Collier-Home-Team/static/media/leesburg.61a32dcc8a3cf163e8f8.png",
+    "static/media/clermont.png": "/Mike-Collier-Home-Team/static/media/clermont.cf44597b287eb9d96672.png",
+    "static/media/tampa.png": "/Mike-Collier-Home-Team/static/media/tampa.ce03d07ecfa3e9643e3b.png",
+    "static/media/ocala.png": "/Mike-Collier-Home-Team/static/media/ocala.f0e60b9000ec00683839.png",
+    "static/media/lakeland.png": "/Mike-Collier-Home-Team/static/media/lakeland.6fa380391f6da1394c4a.png",
+    "static/media/daytona.png": "/Mike-Collier-Home-Team/static/media/daytona.e1c7f9a1f3a8ae52d37b.png",
+    "static/media/deltona.png": "/Mike-Collier-Home-Team/static/media/deltona.76c2e2aae4463c4b6eba.png",
+    "static/media/Kissimmee.png": "/Mike-Collier-Home-Team/static/media/Kissimmee.c46ecbbe733313b02393.png",
+    "static/media/winter haven.png": "/Mike-Collier-Home-Team/static/media/winter haven.477aa247a1e0c5202755.png",
+    "static/media/WallpaperDog-20557292.jpg": "/Mike-Collier-Home-Team/static/media/WallpaperDog-20557292.40b1a986690c9f3d155c.jpg",
+    "static/media/Agent.png": "/Mike-Collier-Home-Team/static/media/Agent.6dbdffbc4ca05e07ae02.png",
+    "static/media/Logo.png": "/Mike-Collier-Home-Team/static/media/Logo.2b8e79ebf3d0454edc80.png",
+    "index.html": "/Mike-Collier-Home-Team/index.html",
+    "main.bf0105c8.css.map": "/Mike-Collier-Home-Team/static/css/main.bf0105c8.css.map",
+    "main.32b270a9.js.map": "/Mike-Collier-Home-Team/static/js/main.32b270a9.js.map",
+    "787.6843e602.chunk.js.map": "/Mike-Collier-Home-Team/static/js/787.6843e602.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf0105c8.css",
+    "static/js/main.32b270a9.js"
+  ]
+}
